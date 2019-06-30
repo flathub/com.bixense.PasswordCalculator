@@ -1,0 +1,29 @@
+From 20a62c92889c6e1f16d0398f661c961d8bcb496a Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Bart=C5=82omiej=20Piotrowski?= <b@bpiotrowski.pl>
+Date: Sun, 30 Jun 2019 11:18:13 +0200
+Subject: [PATCH] Add OARS and release info to appdata
+
+---
+ share/appdata/com.bixense.PasswordCalculator.appdata.xml | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+diff --git a/share/appdata/com.bixense.PasswordCalculator.appdata.xml b/share/appdata/com.bixense.PasswordCalculator.appdata.xml
+index 4e67e56..97ede12 100644
+--- a/share/appdata/com.bixense.PasswordCalculator.appdata.xml
++++ b/share/appdata/com.bixense.PasswordCalculator.appdata.xml
+@@ -19,7 +19,12 @@
+     </screenshot>
+   </screenshots>
+ 
++  <content_rating type="oars-1.1" />
+   <url type="homepage">https://bixense.com/pwcalculator/</url>
++  <releases>
++    <release date="2017-06-16" version="1.1"/>
++    <release date="2016-06-17" version="1.0"/>
++  </releases>
+ 
+   <provides>
+     <binary>pwcalculator</binary>
+-- 
+2.22.0
+
